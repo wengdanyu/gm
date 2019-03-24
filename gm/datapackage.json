@@ -1,0 +1,62 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "gm",
+      "path": "gm.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "site",
+            "type": "string",
+            "format": "default",
+            "title": "来源网站"
+          },
+          {
+            "name": "module",
+            "type": "string",
+            "format": "default",
+            "title": "模块"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "format": "default",
+            "title": "标题"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "uri",
+            "title": "信息网址"
+          },
+          {
+            "name": "published",
+            "type": "date",
+            "format": "xxxx/xx/xx",
+            "title": "发布日期"
+          }
+        ]
+      },
+      "format": "csv",
+      "title": "国密局数据"
+    }
+  ],
+  "name": "first_tabular",
+  "title": "my_first_tabular",
+  "description": "包含了国密局、工信部、BJCA、SZCA、DGCA数据",
+  "contributors": [
+    {
+      "title": "wdy",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
