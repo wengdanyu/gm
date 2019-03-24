@@ -11,31 +11,31 @@
             "name": "site",
             "type": "string",
             "format": "default",
-            "title": "来源网站"
+            "title": "site"
           },
           {
             "name": "module",
             "type": "string",
             "format": "default",
-            "title": "模块"
+            "title": "module"
           },
           {
             "name": "title",
             "type": "string",
             "format": "default",
-            "title": "标题"
+            "title": "title"
           },
           {
             "name": "url",
             "type": "string",
             "format": "uri",
-            "title": "信息网址"
+            "title": "url"
           },
           {
             "name": "published",
             "type": "date",
             "format": "xxxx/xx/xx",
-            "title": "发布日期"
+            "title": "published"
           }
         ]
       },
